@@ -55,6 +55,17 @@ The following pipeline was employed for training the agent.
             - Copy the network weights from Model 1 to Model 2 using ‘soft-update’ function.
         - Repeat
         
+## Hyperparameters
+
+| Hyperparameters | Value | Description                                                                  |
+|-----------------|-------|------------------------------------------------------------------------------|
+| BUFFER_SIZE     | 1e5   | Size of the Replay Buffer                                                    |
+| BATCH_SIZE      | 64    | Batch size to sample from the replay buffer                                  |
+| GAMMA           | 0.99  | Discount Factor                                                              |
+| TAU             | 1e-3  | Weight used for performing soft update of the weights                        |
+| LR              | 5e-4  | Learning Rate                                                                |
+| UPDATE_EVERY    | 4     | Number of iterations to collect samples before going into the learning stage |
+
 ---
 
 ## Future Improvements
