@@ -1,5 +1,8 @@
 # Deep Q-Learning for Navigation in Unity ML-Agents Framework
 
+![](banana_navigation.gif)  
+*Figure - A DQN agent is trained to navigate this environment and collect yellow bananas while avoiding blue bananas.*
+
 In this project, an AI agent is trained to navigate (and collect bananas!) in a large, square world. 
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
